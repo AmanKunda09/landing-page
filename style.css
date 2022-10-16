@@ -44,7 +44,7 @@ h1 {
   max-width: 400px;
   padding-left: 50px;
 }
-button {
+.button-top {
   background: #3882f6;
   color: white;
   border-radius: 8px;
@@ -93,7 +93,40 @@ button {
   margin-left: 500px;
   justify-content: flex-end;
 }
-
+.action-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 0.5v;
+}
+.action-info-container {
+  background: #3882f6;
+  border-radius: 15px;
+  display: flex;
+  height: 30%;
+  width: 60%;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+.action-header {
+  font-size: 32px;
+  font-weight: bolder;
+  color: white;
+}
+.action-info {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.button-bot {
+  background: #3882f6;
+  color: white;
+  border-radius: 8px;
+  padding: 0.6em 2em;
+  margin: 1em;
+  border: solid white;
+}
 .footer {
   background: #1f2937;
   color: white;
